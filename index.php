@@ -3,14 +3,14 @@
 
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h2> <a class="btn btn-success" href=""> Add Student </a>
+			<h2> <a class="btn btn-success" href="add.php"> Add Student </a>
 				<a class=" btn btn-info pull-right" href="">View All </a>
 			</h2>
 		</div>
 
 	<div class="panel-body">
 
-		<div class="well text-center">
+		<div class="well text-center" style="font-size: 20px;">
 			<strong>Date: </strong> <?php $cur_date = date("Y-m-d"); echo $cur_date; ?>
 		</div>
 
